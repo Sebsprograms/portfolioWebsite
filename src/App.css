@@ -3,3 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.App {
+  background-image: url('./img/landing-bg.png');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 550px) {
+  .App {
+    background-image: none;
+    background-color: #faaa04 ;
+  }
+}
